@@ -8,7 +8,7 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
   if (Platform.isWindows || Platform.isLinux || Platform.isMacOS) {
     setWindowTitle('Fake Git Committer GUI');
-    setWindowMinSize(const Size(700, 500));
+    setWindowMinSize(const Size(800, 500));
     setWindowMaxSize(Size.infinite);
   }
   runApp(const MyApp());
